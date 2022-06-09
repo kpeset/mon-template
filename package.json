@@ -1,0 +1,17 @@
+{
+  "name": "mon-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm --prefix ./frontend start\" \"npm --prefix ./backend run back\"",
+    "backend": "npm --prefix ./backend run back",
+    "frontend": "npm --prefix ./frontend start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.2.1"
+  }
+}
