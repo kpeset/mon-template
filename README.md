@@ -7,7 +7,7 @@ Template pour React et Node.
 ### Initialiser le projet
 
 - Cloner le repo
-- Installer les npm
+- Installer les dépendances avec npm run setup
 
 ### Commandes disponibles
 
